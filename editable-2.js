@@ -1,1 +1,0 @@
-document.querySelectorAll('*').forEach((i)=>i.setAttribute('contenteditable','true'));

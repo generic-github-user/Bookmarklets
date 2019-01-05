@@ -1,1 +1,1 @@
-javascript:(function() {var elements = document.getElementsByTagName('*'); for(i=0;i<elements.length;i++){ elements[i].setAttribute('contenteditable',true);}}());
+document.querySelectorAll('*').forEach((i)=>i.setAttribute('contenteditable','true'));
