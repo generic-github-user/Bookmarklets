@@ -1,0 +1,1 @@
+javascript:(function(){function r(text) {document.execCommand('insertText', false, text)} t=window.getSelection().toString();r('~~'+t+'~~');}());
